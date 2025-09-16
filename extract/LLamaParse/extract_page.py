@@ -241,6 +241,8 @@ if __name__ == "__main__":
     try:
         loader = LlamaParseLoader(
             "C:/Users/own/Downloads/Learn-RAG-code-only/Learn-RAG-code-only/pdf_files/transformer.pdf",
+            api_key="YourLlamaparseapi_key",
+            openai_api_key="Youropenai_api_key",
             describe_images=True,
             image_dir="C:/Users/own/Downloads/Learn-RAG-code-only 2_Updated_Code/Learn-RAG-code-only/extracted_images")
         documents = loader.load()
