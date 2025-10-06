@@ -1,5 +1,6 @@
 from typing import List
 import os
+import logging
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.callbacks import CallbackManagerForRetrieverRun
