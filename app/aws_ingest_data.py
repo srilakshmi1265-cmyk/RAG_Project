@@ -58,7 +58,7 @@ async def opensearchdoc():
 
     # --- Load and parse PDF ---
     loader = LlamaParseLoader(
-        tmp_path,"llx-VOvLvSpXbxnlKgg7U4wiHCROSYbEsH8JCQvgrQw6fD5JZ5fM",
+        tmp_path,"Llamaindex_api_key",
         openai_api_key=openai_api_key,
         describe_images=True,
         image_dir=image_dir
